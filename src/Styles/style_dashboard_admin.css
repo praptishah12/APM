@@ -1,0 +1,63 @@
+/* Styles/style_dashboard_admin.css */
+
+/* Blue-based theme */
+body {
+  background-color: #ecf0f5; /* Light blue background color */
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.dashboard-container {
+  display: flex;
+}
+
+.vertical-navbar {
+  display: flex;
+  flex-direction: column;   
+  background-color: #34657f;
+  padding: 50px;
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+.icons {
+  height: 100%;
+  align-items: center;
+  display: flex; /* Display links horizontally */
+  justify-content: space-between; 
+  /*padding-left: 20px;*/
+  margin-bottom: 20px;
+}
+
+.vertical-navbar a {
+  margin-bottom: 10px; /* Add margin between links */
+  color: #fff;
+  text-decoration: none;
+}
+
+.vertical-navbar a:hover {
+  background-color: #4f8eaa; /* Hover color for navbar items */
+}
+
+.content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+}
+
+.links a {
+  display: block;
+  padding: 15px;
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px solid #4f8eaa;
+  transition: background-color 0.3s;
+}
+
+.links a:hover {
+  background-color: #4f8eaa;
+}
